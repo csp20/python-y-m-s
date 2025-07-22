@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket numero="134" fecha="2024-02-09">
+   <miEmpresa>Entre Bambalinas</miEmpresa>
+   <CIF>44446666-Z</CIF>
+   <telefono>123456789</telefono>
+   <miCliente>GIRA REVOLUTION</miCliente>
+   <serviciosContratados>
+      <codigo>Con1</codigo>
+      <tipo>Concierto</tipo>
+      <descripcion>Concierto benefíco</descripcion>
+      <numeroTrabajadores>5</numeroTrabajadores>
+      <maquinariaEspecial>si</maquinariaEspecial>
+      <PVP>40.00</PVP>
+   </serviciosContratados>
+   <serviciosContratados>
+      <codigo>Dep2</codigo>
+      <tipo>Eventos deportivo</tipo>
+      <descripcion>Final ATP Segovia</descripcion>
+      <numeroTrabajadores>10</numeroTrabajadores>
+      <PVP>20.00</PVP>
+   </serviciosContratados>
+   <serviciosContratados>
+      <codigo>Fer4</codigo>
+      <tipo>Feria de Muestras</tipo>
+      <descripcion>Feria de muestras</descripcion>
+      <numeroTrabajadores>2</numeroTrabajadores>
+      <PVP>10.00</PVP>
+   </serviciosContratados>
+   <importe>420.00</importe>
+</ticket>

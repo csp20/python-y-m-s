@@ -1,0 +1,21 @@
+<!--Crea un documento XML que represente una lista de libros. Cada libro debe
+tener los siguientes atributos: título, autor y año de publicación. Incluye al
+menos tres libros en la lista.-->
+<?XML version="1.0" encoding="uft-8"?>
+<libros> 
+    <libro>
+        <título> Don Quijote de la Mancha</título>
+        <autor> Miguel de Cervantes</autor>
+        <año_publicacion> 1605</año_publicacion>
+    </libro>
+    <libro>
+        <título> x</título>
+        <autor> j</autor>
+        <año_publicacion> 92</año_publicacion>
+    </libro>
+    <libro>
+        <título> x</título>
+        <autor> j</autor>
+        <año_publicacion> 92</año_publicacion>
+    </libro>
+</libros>

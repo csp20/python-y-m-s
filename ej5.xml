@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colección>
+    <álbum nombre="Vacaciones en París">
+        <fotografía>
+            <lugar>La Torre Eiffel</lugar>
+            <fecha>12/01/2024 10:15</fecha>
+            <cámara>Canon EOS 80D</cámara>
+            <personas>Juan, Ana, Pedro</personas>
+            <monumento>La Torre Eiffel</monumento>
+        </fotografía>
+        <fotografía>
+            <lugar>El Museo del Louvre</lugar>
+            <fecha>13/01/2024 12:30</fecha>
+            <cámara>Canon EOS 80D</cámara>
+            <personas>Juan, Ana</personas>
+            <monumento>El Museo del Louvre</monumento>
+        </fotografía>
+        <fotografía>
+            <lugar>El Arco del Triunfo</lugar>
+            <fecha>14/01/2024 15:45</fecha>
+            <cámara>Canon EOS 80D</cámara>
+            <personas>Juan, Ana, Pedro, Luis</personas>
+            <monumento>El Arco del Triunfo</monumento>
+        </fotografía>
+        <fotografía>
+            <lugar>La Catedral de Notre Dame</lugar>
+            <fecha>15/01/2024 17:00</fecha>
+            <cámara>Canon EOS 80D</cámara>
+            <personas>Juan, Ana, Pedro, Luis, María</personas>
+            <monumento>La Catedral de Notre Dame</monumento>
+        </fotografía>
+    </álbum>
+    <álbum nombre="Cumpleaños de Carlos">
+        <fotografía>
+            <lugar>El Parque de Atracciones</lugar>
+            <fecha>20/01/2024 11:00</fecha>
+            <cámara>Sony Alpha a6000</cámara>
+            <personas>Carlos, Elena, Marta, Pablo</personas>
+            <monumento>Ninguno</monumento>
+        </fotografía>
+        <fotografía>
+            <lugar>El Restaurante La Pizzería</lugar>
+            <fecha>20/01/2024 14:00</fecha>
+            <cámara>Sony Alpha a6000</cámara>
+            <personas>Carlos, Elena, Marta, Pablo, Sara, David</personas>
+            <monumento>Ninguno</monumento>
+        </fotografía>
+        <fotografía>
+            <lugar>La Casa de Carlos</lugar>
+            <fecha>20/01/2024 16:30</fecha>
+            <cámara>Sony Alpha a6000</cámara>
+            <personas>Carlos, Elena, Marta, Pablo, Sara, David, Laura, Jorge</personas>
+            <monumento>Ninguno</monumento>
+        </fotografía>
+        <fotografía>
+            <lugar>La Discoteca El Sol</lugar>
+            <fecha>20/01/2024 23:00</fecha>
+            <cámara>Sony Alpha a6000</cámara>
+            <personas>Carlos, Elena, Marta, Pablo, Sara, David, Laura, Jorge, Raúl, Ana</personas>
+            <monumento>Ninguno</monumento>
+        </fotografía>
+    </álbum>
+</colección>

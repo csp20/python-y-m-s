@@ -1,0 +1,61 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="tipoTexto">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="5"/>
+      <xs:maxLength value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoPrecio">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="999"/>
+      <xs:totalDigits value="5"/>
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tipoArticulo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Concierto"/>
+      <xs:enumeration value="Eventos deportivo"/>
+      <xs:enumeration value="Feria de Muestras"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ticket">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="miEmpresa" type="tipoTexto"/>
+        <xs:element name="CIF">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="\d{8}-[A-Z]"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="telefono">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="\d{9}"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="miCliente" type="tipoTexto"/>
+        <xs:element name="serviciosContratados" minOccurs="1" maxOccurs="15">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:string"/>
+              <xs:element name="tipo" type="tipoArticulo" minOccurs="0"/>
+              <xs:element name="descripcion" type="tipoTexto"/>
+              <xs:element name="numeroTrabajadores" type="xs:integer"/>
+              <xs:element name="maquinariaEspecial" minOccurs="0"/>
+              <xs:element name="PVP" type="tipoPrecio"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="importe" type="tipoPrecio"/>
+      </xs:sequence>
+      <xs:attribute name="numero" type="xs:integer"/>
+      <xs:attribute name="fecha" type="xs:date"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

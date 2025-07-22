@@ -1,0 +1,39 @@
+<!--Crea un documento XML que represente un catálogo de productos electrónicos.
+Cada producto debe tener los siguientes elementos: nombre, descripción, precio
+y una lista de características. Cada característica debe tener un nombre y un
+valor asociado. Incluye al menos dos productos en el catálogo, cada uno con
+diferentes características.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<catálogo>
+    <producto>
+        <nombre>iPhone 13</nombre>
+        <descripción>Smartphone de Apple con tecnología 5G</descripción>
+        <precio>999€</precio>
+        <características>
+            <característica>
+                <nombre>Color</nombre>
+                <valor>Azul</valor>
+            </característica>
+            <característica>
+                <nombre>Capacidad de almacenamiento</nombre>
+                <valor>128GB</valor>
+            </característica>
+        </características>
+    </producto>
+    <producto>
+        <nombre>Samsung Galaxy S21</nombre>
+        <descripción>Smartphone de Samsung con pantalla Dynamic AMOLED 2X</descripción>
+        <precio>849€</precio>
+        <características>
+            <característica>
+                <nombre>Color</nombre>
+                <valor>Negro</valor>
+            </característica>
+            <característica>
+                <nombre>Capacidad de almacenamiento</nombre>
+                <valor>256GB</valor>
+            </característica>
+        </características>
+    </producto>
+</catálogo>
